@@ -13,7 +13,11 @@ function isValidEmail(email) {
 }
 
 app.get("/health", (req, res) => {
-  res.json({ ok: true, service: "saas-node-api" });
+  res.json({ 
+    ok: true, 
+    service: "saas-node-api",
+    version:"1.0.0"
+  });
 });
 
 app.get("/api/applications", async (req, res) => {
