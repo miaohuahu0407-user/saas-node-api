@@ -1,0 +1,17 @@
+{
+  "name": "saas-node-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "cors": "latest",
+    "express": "latest"
+  },
+  "devDependencies": {
+    "prisma": "^6.19.3"
+  }
+}
